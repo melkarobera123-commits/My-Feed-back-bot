@@ -1,8 +1,11 @@
+from telegram import Update
+from telegram.ext import Application, MessageHandler, filters, ContextTypes
+
 # Your Bot Token
-BOT_TOKEN = "YOUR_BOT_TOKEN"
+BOT_TOKEN = "8919547403:AAEZ9FjNljnrCDnU09Oh0st5cNJCxFDSpUk"
 
 # Your Telegram ID
-OWNER_ID = YOUR_TELEGRAM_ID
+OWNER_ID = 1227456824
 
 
 async def receive_feedback(update: Update, context: ContextTypes.DEFAULT_TYPE):
